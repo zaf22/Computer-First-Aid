@@ -54,40 +54,100 @@
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
-                    <p><a href="#startup">Jump to Start Up tips</a></p>
+                    <p><a href="#startup">Start Up </a></p>
 
-                    <p><a href="#speed">Jump to Performance tips</a></p>
+                    <p><a href="#speed">Performance </a></p>
 
-                    <p><a href="#storage">Jump to Storage tips</a></p>
+                    <p><a href="#storage">Jump to Storage </a></p>
 
-                    <p><a href="#security">Jump to Security tips</a></p>
+                    <p><a href="#security">Security </a></p>
 
                     <p><i>Linux has a wide variety of variations, or flavors. They have software based on what a user needs such as Kali Linux, used for ethical hacking, and Ubuntu, for everyday use. This manual will cover Ubuntu Linux distribution and how to make your laptop run faster and safer.</i></p>
 
+                    <!--################################################-->
+                    <!--Start up SECTION-->
                     <h2 id="startup" class="section-heading">Improving Start Up Speed</h2>
                     <p>To make Ubuntu Linux start up faster, there are a variety of ways. In this manual, we will begin with some basics and head on over to intermediate knowledge of the system. The first topic that you can do is to boost your startup is
                         to limit Automatic Startup Applications. </p>
                     <ol start="1">
                         <li>Log in onto your system with your credentials</li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>Search up "Startup Applications" on your search bar (Ubuntu unity) and click it</li>
                     </ol>
-                    <a href="#!"><img class="img-fluid" src="assets/img/linux1.png" alt="Heres a broken image tag for re-use" /></a>
-                    <blockquote class="blockquote">Maybe use this for showing actual paths?</blockquote>
+                    <p>Step 1:</p>
+                    <a href="#!"><img class="img-fluid" src="assets/img/linux1.jpeg" alt="Heres a broken image tag for re-use" /></a>
+                    <p>Step 2:</p>
+                    <img class="img-fluid" src="assets/img/linux2.png" alt="Heres a broken image tag for re-use" />
+                    <p>Here you can edit any programs that you do not want to startup. You can also remove or edit these programs with the buttons on the side.</p>
+                    <p>Another way to increase your bootup time is to install a preload up program. You can do this by taking the following steps:</p>
+                    <ol start="1">
+                        <li>Open up your terminal on Ubuntu</li>
+                        <p>Step 1</p>
+                        <img class="img-fluid" src="assets/img/linux3.png" alt="Heres a broken image tag for re-use" />
+                        <li>Type in the command: "sudo apt-get install preload"</li>
+                        <p>Step 2</p>
+                        <img class="img-fluid" src="assets/img/linux4.JPG" alt="Heres a broken image tag for re-use" />
+                    </ol>
+
+
+                    <p>These are just a few ways to improve your Ubuntu start up.</p>
+
+                    <!--################################################-->
+                    <!--MAINTAINING DEVICE PERFORMANCE SECTION-->
 
                     <h2 id="speed" class="section-heading">Maintaining device performance</h2>
-                    <p>Here include info for maintaing machine performance. Lorem ipsum... </p>
-                    <a href="#!"><img class="img-fluid" src="assets/img/post-sample-mage.jpg" alt="Heres a broken image tag for re-use" /></a>
-                    <span class="caption text-muted">Cool caption class if needed.</span>
+                    <p>The following is a way to update your Ubuntu linux. To do so, we are going to be using the command line. For the command line to work, you have to write exactly is the command is. In linux, a spelling mistake or a space affects everything.
+                        To update Ubuntu using terminal go and follow these steps:</p>
+                    <ol start="1">
+                        <li>Open the terminal application on your system</li>
+                        <li>Install either the apt command or apt-get command</li>
+                        <img class="img-fluid" src="assets/img/linux5.JPG" alt="Heres a broken image tag for re-use" />
+                        <li>Install the newest versions of all installed packages on Ubuntu with the following command</li>
+                        <img class="img-fluid" src="assets/img/linux6.JPG" alt="Heres a broken image tag for re-use" />
+                        <li>You may need to reboot the Linux server if kernel was updated by using the command</li>
+                        <img class="img-fluid" src="assets/img/linux7.JPG" alt="Heres a broken image tag for re-use" />
+                    </ol>
+                    <p>This is the main way to update your Ubuntu OS through the command line.</p>
+                    <!--<span class="caption text-muted">Cool caption class if needed.</span>
+
+                    ################################################-->
+                    <!--Cleaning SECTION-->
 
                     <h2 id="storage" class="section-heading">Cleaning up system storage</h2>
-                    <p>Here include tips on how to clear up storage space. Lorem ipsum... </p>
+                    <p>To help clean up your Ubuntu system, we are gonna need to use the terminal again. To clean your system, follow the steps below:</p>
+                    <ol start="1">
+                        <li>Run your default Ubuntu software manager to remove unwanted apps, files, and folders.</li>
+                        <img class="img-fluid" src="assets/img/linux8.png" alt="Heres a broken image tag for re-use" />
+                        <img class="img-fluid" src="assets/img/linux9.png" alt="Heres a broken image tag for re-use" />
+                        <li>To remove unwatned packages and dependencies, run the command</li>
+                        <img class="img-fluid" src="assets/img/linux10.JPG" alt="Heres a broken image tag for re-use" />
+                        <li>Clean the APT cache
+                            <ul>
+                                <li>The following command tells you the size of the APT cache on your system</li><img class="img-fluid" src="assets/img/linux11.JPG" alt="Heres a broken image tag for re-use" />
+                                <li>To clean the APT cache, run the command</li>
+                                <img class="img-fluid" src="assets/img/linux12.JPG" alt="Heres a broken image tag for re-use" />
+                            </ul>
+                        </li>
+                    </ol>
+
+                    <!--################################################-->
+                    <!--SEcure SECTION-->
 
                     <h2 id="security" class="section-heading">Keeping your device secure</h2>
-                    <p>This is the tag for security related information. Lorem ipsum... </p>
+                    <p>There are a variety of ways to make your system more secure. The following ways are listed below:</p>
+                    <ol start="1">
+                        <li>Enable Full Disk Encryption (FDE)</li>
+                        <ul>
+                            <li>This is available right before installation of Ubuntu </li>
+                            <img class="img-fluid" src="assets/img/linux13.png" alt="Heres a broken image tag for re-use" />
+                        </ul>
+                        <li>Keep your software up to date by following the path: System settings | Software & Updates | Updates</li>
+                        <img class="img-fluid" src="assets/img/linux14.png" alt="Heres a broken image tag for re-use" />
+                        <li>Enable Linux Firewall by using the terminal</li>
+                        <ul>
+                            <li>Run the command: "sudo ufw enable"</li> <img class="img-fluid" src="assets/img/linux15.JPG" alt="Heres a broken image tag for re-use" />
+                        </ul>
+
+                    </ol>
                 </div>
             </div>
         </div>
@@ -95,7 +155,14 @@
     <!-- Footer-->
     <footer class="border-top">
         <div class="container px-4 px-lg-5">
-            <p>Sources go here. Lorem ipsum... </p>
+            <p>Sources:</p>
+            <ul>
+                <li>Ubuntu Support</li>
+                <li>"Prakash, Abhishek. (2019, December 21). 10 Killer Tips to Speed Up Ubuntu Linux. Retrieved November 4, 2021, from https://itsfoss.com/speed-up-ubuntu-1310/"</li>
+                <li>"Gite, Vivek. (2020, August 5). How do I update Ubuntu using terminal command line. Retrieved November 4, 2021, from https://www.cyberciti.biz/faq/upgrade-update-ubuntu-using-terminal/."</li>
+                <li>"Birari, Niteesha. (2020, January 01). How to Clean Up Your Ubuntu System?. Retrieved November 4, 2021, from https://www.esds.co.in/kb/how-to-clean-up-ubuntu-server/."</li>
+                <li>"Rovelli, Paolo. (2015, May 27). 5 tips to improve your Linux desktop security. Retrieved November 4, 2021, from https://nakedsecurity.sophos.com/2015/05/27/5-tips-to-improve-your-linux-desktop-security//."</li>
+            </ul>
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
                     <div class="small text-center text-muted fst-italic">Copyright &copy; Your Website 2021</div>
