@@ -24,7 +24,7 @@ The bottom of each subpage contains sources of where information was found. For 
 ## Project History
 * 11.4.2021
   * Authors: Jonathan Azcona, Jason Choi, Zachariah Feerrar, Ozzie Perkins, Dailynn Tejeda
-  * Version 1.0 released
+  * Version 1.0.0 released
   * Framework created
   * Index.html created and updated
   * Subpages for Windows, MacOS, Linux, ChromeOS, and iOS created and updated
