@@ -21,6 +21,11 @@ To return back to the home page, either:
 
 The bottom of each subpage contains sources of where information was found. For those looking to improve the training manual, there are comments in each HTML page referencing locations of sections/categories in the code.
 
+The bottom of each page contains 3 links:
+* Q&A for frequently asked questions
+* Ethics statement
+* Inclusivity statement
+
 ## Project History
 * 11.4.2021
   * Authors: Jonathan Azcona, Jason Choi, Zachariah Feerrar, Ozzie Perkins, Dailynn Tejeda
@@ -28,7 +33,7 @@ The bottom of each subpage contains sources of where information was found. For 
   * Framework created
   * Index.html created and updated
   * Subpages for Windows, MacOS, Linux, ChromeOS, and iOS created and updated
-  * README, License, Q&A, and inclusivity statement created and updated
+  * README, License, Q&A, ethics, and inclusivity statement created and updated
 
 ## Version History
 1.0.0 - Released 11.4.2021
