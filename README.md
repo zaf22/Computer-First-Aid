@@ -7,16 +7,18 @@ When opening the training manual, you can find each OS by either scrolling down 
 
 Each subpage provides tips for 4 categories of computer health: 
 * Improving start up
-* Maintaining device perforance
+* Maintaining device performance
 * Cleaning up system storage
 * Keeping a device secure
 
 To access each category, either:
 * Click the links at the top of the page
+-OR-
 * Scroll down on the page
 
 To return back to the home page, either:
 * Press the back arrow on your browser
+-OR-
 * Press "Computer First Aid" at the top-left-hand side of the website
 
 The bottom of each subpage contains sources of where information was found. For those looking to improve the training manual, there are comments in each HTML page referencing locations of sections/categories in the code.
