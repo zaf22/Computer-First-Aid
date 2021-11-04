@@ -52,6 +52,8 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
+                        <!--Introduction section-->
+                        <!--Links to each category-->
                         <p><a href="#startup">Jump to Start Up tips.</a></p>
                         
                         <p><a href="#speed">Jump to Performance tips.</a></p>
@@ -59,73 +61,84 @@
                         <p><a href="#storage">Jump to Storage tips.</a></p>
                         
                         <p><a href="#security">Jump to Security tips.</a></p>
-                        
+                        <!-- bootup-->
                         <h2 id="startup" class="section-heading">Improving Start Up Speed</h2>
-                        <p>The easiest way to decrease start up time for your machine is to lower your Windows graphics settings. Here are a couple ways to accomplish this.     </p>
+                        <p>The easiest way to decrease start up time for your machine is to lower your Windows graphics settings. Here are a couple ways to accomplish this:     </p>
                         <ul>
-                            <li>Turn off transparency effects</li>
-                            
-                            <p>Start by pressing the Windows key on your keyboard and opening Settings.</p>
-                            
+                        <li>Turn off transparency effects</li>
+                            <ol>
+                            <li>Start by pressing the Windows key on your keyboard and opening Settings.</li>
                             <a href="#!"><img class="img-fluid" src="assets/img/winkey.jpg" alt="Windows key example" /></a>
-                            
-                            <p>Select Personalization from the options displayed. </p>
+                            <p> </p>
+                            <li>Select Personalization from the options displayed. </li>
                             <a href="#!"><img class="img-fluid" src="assets/img/winstone.PNG" alt="Personalization on the control panel page" /></a>
-                            
-                            <p>Go into the colors tab on the left side bar. </p>
+                            <p> </p>
+                            <li>Go into the colors tab on the left side bar. </li>
                             <a href="#!"><img class="img-fluid" src="assets/img/winsttwo.PNG" alt="Colors on the sidebar in personalization settings" /></a>
-                            
-                            <p>Switch off the option for "Transparency effects"</p>
-                            <a href="#!"><img class="img-fluid" src="assets/img/winstthree.PNG" alt="Transparency effects option in Personalization > Colors" /></a>
-                            <br>
-                            
-                            <li>Lower Windows Graphics Settings</li>
-                            
-                            <p>Type "sysdm.cpl" in your system's search bar and press the Enter key.</p>
+                            <p> </p>
+                            <li>Switch off the option for "Transparency effects"</li>
+                            <a href="#!"><img class="img-fluid" src="assets/img/winstthree.PNG" alt="Transparency effects option in Personalization > Colors" /></a>                                <p> </p>
+                            </ol></h2>
+                        <li>Lower Windows Graphics Settings</li>
+                            <ol>
+                            <li>Type "sysdm.cpl" in your system's search bar and press the Enter key.</li>
                             <a href="#!"><img class="img-fluid" src="assets/img/winsearch.PNG" alt="Search bar in bottom left of Windows" /></a>
-                            
-                            <p>Navigate to the "Advanced" tab and open Settings under the Performance section.</p>
+                            <p> </p>
+                            <li>Navigate to the "Advanced" tab and open Settings under the Performance section.</li>
                             <a href="#!"><img class="img-fluid" src="assets/img/winstfour.PNG" alt="sysdm.cpl settings" /></a>
-                            
-                            <p>Select the "Adjust for best performance" option, then click apply on the bottom right to improve performance.</p>
-                            
-                            <li>Disable unnecessary start up programs</li>
-                            
-                            <p>Another way to improve boot up speed is to reduce the number of programs that open automatically and begin using up computing power. 
-                                Start by pressing CTRL + ALT + DEL and opening the task manager from the options on the screen.</p>
-                            
-                            <p>Next navigate to the "Start Up" tab of the Task Manager. If these tabs are not visible, you must toggle the "More details" option at the bottom of the page.</p>
+                            <p> </p>
+                            <li>Select the "Adjust for best performance" option, then click apply on the bottom right to improve performance.</li>                                <p> </p>
+                            </ol></h2>
+                        <li>Disable unnecessary start up programs</li>
+                            <ol>
+                            <li>Another way to improve boot up speed is to reduce the number of programs that open automatically and begin using up computing power. 
+                            Start by pressing CTRL + ALT + DEL and opening the task manager from the options on the screen.</li>
+                            <p> </p>
+                            <li>Next navigate to the "Start Up" tab of the Task Manager. If these tabs are not visible, you must toggle the "More details" option at the bottom of the page.</li>
                             <a href="#!"><img class="img-fluid" src="assets/img/wintaskm.PNG" alt="Windows task manager" /></a>
-                            
-                            <p>You should see a list of your programs and if they start automatically when your device is turned on. Each of these programs can be disabled on boot up by
-                                right clicking on the desired program and choosing "Disable".</p>
-                        
+                            <p> </p>
+                            <li>You should see a list of your programs and if they start automatically when your device is turned on. Each of these programs can be disabled on boot up by
+                            right clicking on the desired program and choosing "Disable".</li>
+                            </ol><h2>
+                        </ul></h2>
+
+                        <!-- speed-->
                         <h2 id="speed" class="section-heading">Maintaining device performance</h2>
-                        <p>Improving the performance of your Windows machine involves turning off some of the unused programs that run in the background. <strong>The first
-                            of these is Windows Search.</strong> Follow these steps to disable the Search program. </p>
-                        
-                        <ol>
-                            <li>Enter "services.msc" in your device's Search bar. This will open a list of processes your computer is running.</li>
-                            <li>The process we are looking for will be listed as "Index Service" or "Windows Search".</li>
-                            <li>To stop this process simply right click on the corresponding row and click "Stop".</li>
-                            </ol>
-                        <p>If you find yourself frequently searching through your machine and the performance of this is impacted by your modifying this setting, you may 
-                            choose to reactive Windows search in the same place you disabled it.</li>
-                        
-                        <p><strong>Another process that may be draining your device is Windows Update Sharing.</strong> This can be disabled in settings under </p>
-                        <blockquote class="blockquote">Settings > Update & Security > Delivery Optimization</blockquote>
-                        <p>Just move the switch under "Allow Downloads from other PCs" to the Off position</p>
-                        <a href="#!"><img class="img-fluid" src="assets/img/winpfone.PNG" alt="Windows Update Sharing setting" /></a>
-                        
-                        <p>Now that those programs are disabled, you can clean up any other unnecessary background processes. All Background Apps are listed in settings under
-                        <blockquote class="blockquote">Settings > Privacy > Background Apps</blockquote>
-                        <div class="row">
-                            <div class="col-6"><a href="#!"><img class="img-fluid" src="assets/img/winpftwo.PNG" alt="Scroll down left sidebar" /></a></div>
-                            <div class="col-6"><a href="#!"><img class="img-fluid" src="assets/img/winpfthree.PNG" alt="Background Apps tab" /></a></div>
-                        </div>
-                        
-                        <p>You can disable all background activity by flipping the top switch, or you can target individual apps by moving the slider next to the desired program.</p>
-                        
+                        <p>Improving the performance of your Windows machine involves turning off some of the unused programs that run in the background. </p>
+                        <ul>
+                        <li><strong>The first of these is Windows Search.</strong></li>
+                            <ul>
+                            <li>Follow these steps to disable the Search program:</li>
+                                <ol>
+                                <li>Enter "services.msc" in your device's Search bar. This will open a list of processes your computer is running.</li>
+                                <li>The process we are looking for will be listed as "Index Service" or "Windows Search".</li>
+                                <li>To stop this process simply right click on the corresponding row and click "Stop".</li>
+                                </ol></h2>
+                            <li>If you find yourself frequently searching through your machine and the performance of this is impacted by your modifying this setting, you may 
+                                choose to reactive Windows search in the same place you disabled it.</li>   
+                            </ul></h2> 
+                            <p> </p>
+                        <li><strong>Another process that may be draining your device is Windows Update Sharing.</strong></li>
+                            <ul>
+                            <li>This can be disabled in settings under <blockquote class="blockquote">Settings > Update & Security > Delivery Optimization</blockquote></li>
+                            <li>Just move the switch under "Allow Downloads from other PCs" to the Off position</li>
+                            <a href="#!"><img class="img-fluid" src="assets/img/winpfone.PNG" alt="Windows Update Sharing setting" /></a>
+                            <p> </p>
+                            </ul></h2>
+                            <p> </p>
+                        <li>Now that those programs are disabled, you can clean up any other unnecessary background processes.</li>
+                            <ul>
+                            <li>All Background Apps are listed in settings under <blockquote class="blockquote">Settings > Privacy > Background Apps</blockquote></li>
+                            <div class="row">
+                                <div class="col-6"><a href="#!"><img class="img-fluid" src="assets/img/winpftwo.PNG" alt="Scroll down left sidebar" /></a></div>
+                                <div class="col-6"><a href="#!"><img class="img-fluid" src="assets/img/winpfthree.PNG" alt="Background Apps tab" /></a></div>
+                            </div>
+                            <p> </p>
+                            <li>You can disable all background activity by flipping the top switch, or you can target individual apps by moving the slider next to the desired program.</li>
+                            </ul></h2>
+                        </ul></h2>
+
+                        <!-- storage-->
                         <h2 id="storage" class="section-heading">Cleaning up system storage</h2>
                         <p>To free up space on your machine, you have to clear out files and apps that you no longer need. The best place to start is in the Recycle Bin where 
                             files you already deleted are stored until you clear them out. There is a shortcut to the Recycle Bin located on your desktop, open it to see what
@@ -146,6 +159,7 @@
                         <p>To uninstall a program, click on it and select "Uninstall" and complete the process by approving any further prompts that appear.</p>
                         <p>These tips should have provided some insight on how to clear device storage. In order to maintain free space, these processes should be completed on a regular basis.</p>
                         
+                        <!-- security-->
                         <h2 id="security" class="section-heading">Keeping your device secure</h2>
                         <p>The most important part of device security is keeping your operating system up to date. This ensures the latest security features are installed. You can
                             make sure you have the latest Windows update in settings under  </p>
